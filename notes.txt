@@ -1,0 +1,63 @@
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+Ch. 1
+
+Types Automation Tests:
+	Unit Tests
+	Integration Tests
+	Component Tests
+	Functional Tests
+	UI Tests
+	and more!
+
+Models for determining which test to use, type of resources required and helpful for planning:
+	Agile Testing Quadrants:
+		See image "agile-testing-quadrants.png" Note: the order of these tests isn't important, they can occur in any order. Also doesn't imply that each of these tests are necessary for development. Use this to help determine which tests to do (during planning, development and releases).
+		#1
+			Lower left quad: automated, insure functionality, and build a good foundation.
+				Include Integration Test to this quadrant (currently image shows just Component and Unit Test)
+				Most number of tests written in this area, often alongside development. Confirms functionality.
+		#2
+			Top Left quad: automated or manual, help answer questions and find info of app and it's features
+				Include additionally Unit Tests.
+				Before and during development.
+				Done before releasing software to the public.
+		#3
+			Top Right quad: manual, provide feedback about current state of app. Help understand user experience.
+				Can be done before or after development.
+				Uncovers what can be improved, workflow and debug.
+		#4
+			Bottom Right quad: automated, critique product, provide targeted info about app.
+				Include addionally reliability tests.
+				Tests implemented based on priority (what is most important in the application). For example, if load time for page is important than performane testing that shows this would be ideal.
+
+	Test Pyramid:
+		ideal way to structure tests:
+			Most QA Testing will have these as a min:
+				Unit tests make the base, integration test middle and on top of the pyramid are the UI (User Interface) tests.
+				Tests become more integrated and slow higher up the pyramid, and more isolated and faster nearest the base.
+
+	Unit tests:
+		Test a single function(ality), passing in various values and insure the right results are returned.
+		Great number of these tests typically.
+
+	Integration tests:
+		Insure that things work seemlessly together (database, filesystems and apps)
+		API testing.
+		Create own data
+
+	User Interface Tests:
+		Simulate user actions and test end to end work-flows.
+		Usually just a handful of these tests, one for each type of user.
+
+	Be aware of how many tests are written. In general the size (#) of tests should follow the pyramid structure with most # tests being the ones at the base and least toward the top.
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+Ch. 2
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+Ch. 3
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+Ch. 4
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+Ch. 5
